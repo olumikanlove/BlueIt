@@ -1,0 +1,29 @@
+{
+  "name": "websiteclone",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon sever.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olumikanlove/BlueIt.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "bootstrap"
+  ],
+  "author": "Affinity",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olumikanlove/BlueIt/issues"
+  },
+  "homepage": "https://github.com/olumikanlove/BlueIt#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
+}
