@@ -1,0 +1,42 @@
+<% include partials/header.ejs %>
+
+	<div class="container>
+		 <div class="card" style="width: 20rem; margin: 0 auto; float: none; margin-top: 200px">
+			<div class="card-header text-success h5 lead">Sign up to GreenIt</div>
+			<form action="/submitForm" method="POST" class="form-inline justify-content-center" style="margin-top: 50px">
+                <div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+					</div>
+					<input type="email" name="email" class="form-control" placeholder="Enter Email" aria-label="Email" aria-describedby="basic-addon1">
+				</div>
+
+				<div class="input-group" style="margin-top: 20px">
+					<div class="input-group-prepend">
+						<span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+					</div>
+					<input type="text" name="username" class="form-control" placeholder="Select Username" aria-label="Username" aria-describedby="basic-addon1">
+				</div>
+			
+				<div class="input-group" style="margin-top: 20px;">
+					<div class="input-group-prepend">
+						<span class="input-group-text" id="basic-addon1">@</span>
+					</div>
+					<input type="password" name="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+				</div>
+
+				<div class="input-group" style="margin-top: 20px">
+					<div class="input-group-prepend">
+						<span class="input-group-text" id="basic-addon1">@</span>
+					</div>
+					<input type="password" name="Confirmpassword" class="form-control" placeholder="Confirm Password" aria-label="Password" aria-describedby="basic-addon1">
+				</div>
+
+				<p class="error">Error Message</p>
+				<div style="text-align: center">
+				<button type="submit" class="btn btn-success">Submit</button>
+				</div>
+			</form>
+	</div>
+	</div>
+<% include partials/footer %>

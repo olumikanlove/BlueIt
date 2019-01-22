@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Website Clone</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-      crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  </head>
-<body>
+<% include partials/header %>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color: #e3f2fd;">
   <a class="navbar-brand text-success" href="#" style="margin-right: 100px">GreenIt</a>
@@ -21,10 +12,10 @@
         <a class="nav-link text-muted" href="#" style="margin-right: 20px; text-decoration: underline">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-right text-primary" href="others/login.html">Login</a>
+        <a class="nav-link text-right text-primary" href="/login">Login</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-right text-primary" href="others/signup.html">Sign Up</a>
+        <a class="nav-link text-right text-primary" href="/signup">Sign Up</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -93,8 +84,4 @@
   </div>
 </div>
 
-</body>
-<script src="./js/jQuery.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-
-</html>
+<% include partials/footer %>
